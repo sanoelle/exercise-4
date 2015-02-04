@@ -9,10 +9,7 @@ body{
   background: url(../../images/forest.jpg) no-repeat center top;
   background-size: cover;
   width: 100%;
-}
-
-.background{
-
+  background-color: $gold;
 }
 
 .search-container{
@@ -29,12 +26,13 @@ input#search-bar{
   font-size: .9rem;
   //color: #fff;
   border: 2px solid $white;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0);
   //outline: none;
   &:focus{
     border: 2px solid $white;
     transition: 0.35s ease;
-    color: $white;
+    color: $gold;
     &::-webkit-input-placeholder{
       transition: opacity 0.45s ease; 
       opacity: 0;
